@@ -38,6 +38,5 @@ function removeLastKitten() {
 
 function removeFirstKitten() {
   // removes firsy kitty, returns new array, original kittens unchanged
-  let kitties = kittens.slice(1);
-  return kitties;
+  return kittens.slice(1);
 }
