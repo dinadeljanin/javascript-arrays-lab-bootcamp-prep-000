@@ -32,9 +32,9 @@ function prependKitten(name) {
 }
 
 function removeLastKitten() {
-  
+  // removes last kitty, returns new array, original kittens unchanged
 }
 
 function removeFirstKitten() {
-  
+  // removes firsy kitty, returns new array, original kittens unchanged
 }
