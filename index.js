@@ -9,5 +9,6 @@ function destructivelyAppendKitten(name) {
 
 function destructivelyPrependKitten(name) {
   // prepends a kitten to the beginning of the kittens array
- kittens.unshift(name); 
+ kittens.unshift(name);
+ return kittens;
 }
