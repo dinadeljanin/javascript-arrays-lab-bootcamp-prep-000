@@ -33,8 +33,7 @@ function prependKitten(name) {
 
 function removeLastKitten() {
   // removes last kitty, returns new array, original kittens unchanged
-  let kitties = kittens.slice(0, kittens.length-1);
-  return kitties;
+  return kittens.slice(0, kittens.length-1);
 }
 
 function removeFirstKitten() {
