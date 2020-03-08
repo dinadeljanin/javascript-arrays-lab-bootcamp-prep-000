@@ -34,11 +34,11 @@ function prependKitten(name) {
 function removeLastKitten() {
   // removes last kitty, returns new array, original kittens unchanged
   let kitties = kittens.slice(0, kittens.length-1);
-  return kittens;
+  return kitties;
 }
 
 function removeFirstKitten() {
   // removes firsy kitty, returns new array, original kittens unchanged
   let kitties = kittens.slice(1);
-  return kittens;
+  return kitties;
 }
